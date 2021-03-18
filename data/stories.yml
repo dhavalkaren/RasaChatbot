@@ -1,0 +1,542 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: who path
+  steps:
+  - intent: who
+  - action: utter_who
+
+- story: que1 path
+  steps:
+  - intent: que1
+  - action: utter_que1_ans
+
+- story: que2 path
+  steps:
+  - intent: que2
+  - action: utter_que2_ans
+
+- story: que3 path
+  steps:
+  - intent: que3
+  - action: utter_que3_ans
+
+- story: que4 path
+  steps:
+  - intent: que4
+  - action: utter_que4_ans
+
+- story: que5 path
+  steps:
+  - intent: que5
+  - action: utter_que5_ans
+
+- story: que6 path
+  steps:
+  - intent: que6
+  - action: utter_que6_ans
+- story: que7 path
+  steps:
+  - intent: que7
+  - action: utter_que7_ans
+
+- story: que9 path
+  steps:
+  - intent: que9
+  - action: utter_que9_ans
+  
+- story: que10 path
+  steps:
+  - intent: que10
+  - action: utter_que10_ans
+
+- story: que11 path
+  steps:
+  - intent: que11
+  - action: utter_que11_ans
+
+- story: que12 path
+  steps:
+  - intent: que12
+  - action: utter_que12_ans
+
+- story: que13 path
+  steps:
+  - intent: que13
+  - action: utter_que13_ans
+
+
+- story: que15 path
+  steps:
+  - intent: que15
+  - action: utter_que15_ans
+
+- story: que16 path
+  steps:
+  - intent: que16
+  - action: utter_que16_ans
+
+- story: que17 path
+  steps:
+  - intent: que17
+  - action: utter_que17_ans
+
+- story: que18 path
+  steps:
+  - intent: que18
+  - action: utter_que18_ans
+
+
+- story: que19 path
+  steps:
+  - intent: que19
+  - action: utter_que19_ans
+
+- story: que20 path
+  steps:
+  - intent: que20
+  - action: utter_que20_ans
+
+- story: que22 path
+  steps:
+  - intent: que22
+  - action: utter_que22_ans
+
+- story: que23 path
+  steps:
+  - intent: que23
+  - action: utter_que23_ans
+
+- story: que24 path
+  steps:
+  - intent: que24
+  - action: utter_que24_ans
+
+- story: que25 path
+  steps:
+  - intent: que25
+  - action: utter_que25_ans
+
+- story: que26 path
+  steps:
+  - intent: que26
+  - action: utter_que26_ans
+
+- story: que27 path
+  steps:
+  - intent: que27
+  - action: utter_que27_ans
+
+- story: que28 path
+  steps:
+  - intent: que28
+  - action: utter_que28_ans
+
+- story: que29 path
+  steps:
+  - intent: que29
+  - action: utter_que29_ans
+
+
+- story: que30 path
+  steps:
+  - intent: que30
+  - action: utter_que30_ans
+
+- story: que31 path
+  steps:
+  - intent: que31
+  - action: utter_que31_ans
+
+- story: que32 path
+  steps:
+  - intent: que32
+  - action: utter_que32_ans
+
+- story: que33 path
+  steps:
+  - intent: que33
+  - action: utter_que33_ans
+
+- story: que34 path
+  steps:
+  - intent: que34
+  - action: utter_que34_ans
+
+- story: que35 path
+  steps:
+  - intent: que35
+  - action: utter_que35_ans
+
+- story: que36 path
+  steps:
+  - intent: que36
+  - action: utter_que36_ans
+
+- story: que37 path
+  steps:
+  - intent: que37
+  - action: utter_que37_ans
+
+- story: que38 path
+  steps:
+  - intent: que38
+  - action: utter_que38_ans
+
+- story: que39 path
+  steps:
+  - intent: que39
+  - action: utter_que39_ans
+
+- story: que40 path
+  steps:
+  - intent: que40
+  - action: utter_que40_ans
+
+- story: que41 path
+  steps:
+  - intent: que41
+  - action: utter_que41_ans
+
+- story: que42 path
+  steps:
+  - intent: que42
+  - action: utter_que42_ans
+
+- story: que43 path
+  steps:
+  - intent: que43
+  - action: utter_que43_ans
+
+- story: que44 path
+  steps:
+  - intent: que44
+  - action: utter_que44_ans
+
+- story: que45 path
+  steps:
+  - intent: que45
+  - action: utter_que45_ans
+
+- story: que46 path
+  steps:
+  - intent: que46
+  - action: utter_que46_ans
+
+- story: que47 path
+  steps:
+  - intent: que47
+  - action: utter_que47_ans
+
+- story: que48 path
+  steps:
+  - intent: que48
+  - action: utter_que48_ans
+
+- story: que49 path
+  steps:
+  - intent: que49
+  - action: utter_que49_ans
+
+- story: que62 path        
+  steps:
+  - intent: que62
+  - action: utter_que62_ans
+- story: que63 path        
+  steps:
+  - intent: que63
+  - action: utter_que63_ans
+- story: que64 path        
+  steps:
+  - intent: que64
+  - action: utter_que64_ans
+- story: que65 path
+  steps:
+  - intent: que65
+  - action: utter_que65_ans
+- story: que66 path
+  steps:
+  - intent: que66
+  - action: utter_que66_ans
+- story: que67 path
+  steps:
+  - intent: que67
+  - action: utter_que67_ans
+- story: que68 path
+  steps:
+  - intent: que68
+  - action: utter_que68_ans
+- story: que69 path
+  steps:
+  - intent: que69
+  - action: utter_que69_ans
+- story: que70 path
+  steps:
+  - intent: que70
+  - action: utter_que70_ans
+- story: que81 path
+  steps:
+  - intent: que81
+  - action: utter_que81_ans
+- story: que72 path
+  steps:
+  - intent: que72
+  - action: utter_que72_ans
+- story: que73 path
+  steps:
+  - intent: que73
+  - action: utter_que73_ans
+- story: que74 path
+  steps:
+  - intent: que74
+  - action: utter_que74_ans
+- story: que75 path
+  steps:
+  - intent: que75
+  - action: utter_que75_ans
+- story: que76 path
+  steps:
+  - intent: que76
+  - action: utter_que76_ans
+- story: que77 path
+  steps:
+  - intent: que77
+  - action: utter_que77_ans
+- story: que78 path
+  steps:
+  - intent: que78
+  - action: utter_que78_ans
+- story: que79 path
+  steps:
+  - intent: que79
+  - action: utter_que79_ans
+- story: que80 path
+  steps:
+  - intent: que80
+  - action: utter_que80_ans
+- story: que82 path
+  steps:
+  - intent: que82
+  - action: utter_que82_ans
+- story: que83 path
+  steps:
+  - intent: que83
+  - action: utter_que83_ans
+- story: que84 path
+  steps:
+  - intent: que84
+  - action: utter_que84_ans
+- story: que85 path
+  steps:
+  - intent: que85
+  - action: utter_que85_ans
+  
+- story: que86 path        
+  steps:
+  - intent: que86
+  - action: utter_que86_ans
+- story: que87 path
+  steps:
+  - intent: que87
+  - action: utter_que87_ans
+- story: que88 path
+  steps:
+  - intent: que88
+  - action: utter_que88_ans
+- story: que89 path
+  steps:
+  - intent: que89
+  - action: utter_que89_ans
+- story: que90 path
+  steps:
+  - intent: que90
+  - action: utter_que90_ans
+- story: que91 path
+  steps:
+  - intent: que91
+  - action: utter_que91_ans
+- story: que92 path
+  steps:
+  - intent: que92
+  - action: utter_que92_ans
+- story: que93 path
+  steps:
+  - intent: que93
+  - action: utter_que93_ans
+- story: que94 path
+  steps:
+  - intent: que94
+  - action: utter_que94_ans
+- story: que95 path
+  steps:
+  - intent: que95
+  - action: utter_que95_ans
+- story: que96 path
+  steps:
+  - intent: que96
+  - action: utter_que96_ans
+- story: que97 path
+  steps:
+  - intent: que97
+  - action: utter_que97_ans
+- story: que98 path
+  steps:
+  - intent: que98
+  - action: utter_que98_ans
+- story: que99 path
+  steps:
+  - intent: que99
+  - action: utter_que99_ans
+
+- story: que101 path        
+  steps:
+  - intent: que101
+  - action: utter_que101_ans
+  
+- story: que102 path        
+  steps:
+  - intent: que102
+  - action: utter_que102_ans
+  
+- story: que103 path        
+  steps:
+  - intent: que103
+  - action: utter_que103_ans
+  
+- story: que104 path        
+  steps:
+  - intent: que104
+  - action: utter_que104_ans
+  
+- story: que105 path
+  steps:
+  - intent: que105
+  - action: utter_que105_ans
+  
+- story: que106 path
+  steps:
+  - intent: que106
+  - action: utter_que106_ans
+
+- story: que107 path
+  steps:
+  - intent: que107
+  - action: utter_que107_ans
+
+- story: que108 path
+  steps:
+  - intent: que108
+  - action: utter_que108_ans
+
+- story: que111 path        
+  steps:
+  - intent: que111
+  - action: utter_que111_ans
+  
+- story: que112 path        
+  steps:
+  - intent: que112
+  - action: utter_que112_ans
+  
+- story: que113 path        
+  steps:
+  - intent: que113
+  - action: utter_que113_ans
+  
+- story: que114 path        
+  steps:
+  - intent: que114
+  - action: utter_que114_ans
+  
+- story: que115 path
+  steps:
+  - intent: que115
+  - action: utter_que115_ans
+  
+- story: que116 path
+  steps:
+  - intent: que116
+  - action: utter_que116_ans
+
+- story: que117 path
+  steps:
+  - intent: que117
+  - action: utter_que117_ans
+
+- story: que118 path
+  steps:
+  - intent: que118
+  - action: utter_que118_ans
+
+- story: que119 path
+  steps:
+  - intent: que119
+  - action: utter_que119_ans
+
+- story: que120 path
+  steps:
+  - intent: que120
+  - action: utter_que120_ans
+
+- story: que121 path
+  steps:
+  - intent: que121
+  - action: utter_que121_ans
+
+- story: que122 path
+  steps:
+  - intent: que122
+  - action: utter_que122_ans
+
+- story: que123 path
+  steps:
+  - intent: que123
+  - action: utter_que123_ans
+
+- story: que124 path
+  steps:
+  - intent: que124
+  - action: utter_que124_ans
+
+- story: que125 path
+  steps:
+  - intent: que125
+  - action: utter_que125_ans
+
+- story: que126 path
+  steps:
+  - intent: que126
+  - action: utter_que126_ans
+
+- story: que127 path
+  steps:
+  - intent: que127
+  - action: utter_que127_ans
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye

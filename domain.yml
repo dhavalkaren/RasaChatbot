@@ -1,0 +1,875 @@
+version: "2.0"
+
+intents:
+  - greet
+  - who
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - que1
+  - que2
+  - que3
+  - que4
+  - que5
+  - que6
+  - que7
+  - que9
+  - que10
+  - que11
+  - que12
+  - que13
+  - que15
+  - que16
+  - que17
+  - que18
+  - que19
+  - que20
+  - que22
+  - que23
+  - que24
+  - que25
+  - que26
+  - que27
+  - que28
+  - que29
+  - que30
+  - que31
+  - que32
+  - que33
+  - que34
+  - que35
+  - que36
+  - que37
+  - que38
+  - que39
+  - que40
+  - que41
+  - que42
+  - que43
+  - que44
+  - que45
+  - que46
+  - que47
+  - que48
+  - que49
+  - que62
+  - que63
+  - que64
+  - que65
+  - que66
+  - que67
+  - que68
+  - que69
+  - que70
+  - que81
+  - que72
+  - que73
+  - que74
+  - que75
+  - que76
+  - que77
+  - que78
+  - que79
+  - que80
+  - que82
+  - que83
+  - que84
+  - que85
+  - que86
+  - que87
+  - que88
+  - que89
+  - que90
+  - que91
+  - que92
+  - que93
+  - que94
+  - que95
+  - que96
+  - que97
+  - que98
+  - que99
+  - que101
+  - que102
+  - que103
+  - que104
+  - que105
+  - que106
+  - que107
+  - que108
+  - que111
+  - que112
+  - que113
+  - que114
+  - que115
+  - que116
+  - que117
+  - que118
+  - que119
+  - que120
+  - que121
+  - que122
+  - que123
+  - que124
+  - que125
+  - que126
+  - que127
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_who:
+  - text: " i am Ddu's Chatbot.I am Created By student of ddu raj & dhaval."
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_que1_ans:
+  - text: "DDU was founded on 2 January 1968"
+
+  utter_que2_ans:
+  - text: "DDU is loacted in Nadiad, Gujarat, India.  Open Location in Google Map : "
+    image: "https://www.google.com/maps/place/DHARMSINH+DESAI+UNIVERSITY/@22.6802377,72.8801987,15z/data=!4m5!3m4!1s0x0:0xe1e974ce083657fb!8m2!3d22.6802377!4d72.8801987"
+
+  utter_que3_ans:
+  - text: "there is 5 field in DDU :-  faculty of Technology, Medical Science, Dental Science, Management and Pharmacy."
+
+  utter_que4_ans:
+  - text: "this is the official website of ddu :"
+    image: "https://www.ddu.ac.in/ "
+
+  utter_que5_ans:
+  - text: " 1.  Computer Engineering  ,   2.  Chemical Engineering   ,     3.  Civil Engineering  ,  4.  Electronics and Communication Engineering     ,  5.  Information Technology ,  6.  Instrumentation and Control Engineering   ,  7.  Mechanical Engineering  ."
+
+  utter_que6_ans:
+  - text: "There are total more than 35+ courses in DDU. "
+  
+  utter_que7_ans:
+  - text: " Kushal Desai "
+
+  utter_que9_ans:
+  - text: " Prof. K.N.Sheth "
+  
+  utter_que10_ans:
+  - text: " Dr. Hiren Patel "
+
+  utter_que11_ans:
+  - text: " Dr. B. N. Suhagia "
+
+  utter_que12_ans:
+  - text: " Dr. Naresh Patel "
+
+  utter_que13_ans:
+  - text: " please visit this site for acadamic calender :- "
+    image: "https://www.ddu.ac.in/pdf/FoT%20Academic%20Calendar%202019-%202020.pdf "
+
+
+  utter_que15_ans:
+  - text: "  Dr. C. K. Bhensdadia , 
+    Professor & Head , 
+    PhD , M.Tech (IIT-B)  , 
+    Experience :- 30 Years  , 
+    contact :- ckbhensdadia@ddu.ac.in . "
+
+  utter_que16_ans:
+  - text: " 1. System Programming Lab  , 
+    2. Advanced Computing Lab  , 
+    3. Multimedia & Internet Lab  , 
+    4. Web Development Lab  , 
+    5. Hardware Lab  , 
+    6. Microprocessor Lab  . "  
+
+  utter_que17_ans:
+  - text: " - Dr. C. K. Bhensdadia  , 
+    - Dr. Brijesh S. Bhatt  , 
+    - Prof. Siddharth P. Shah , 
+    - Prof. Mrudang T. Mehta  , 
+    - Prof. Prashant M. Jadav  , 
+    - Dr. Malay S. Bhatt  , 
+    - Prof. Sheetal S. Shah  , 
+    - Dr. Bhavika M. Gambhava , 
+    - Prof. Jigar M. Pandya  , 
+    - Prof. Ami M. Shah  , 
+    - Prof. Ashish K. Gor  , 
+    - Prof. Ankit P. Vaishnav  , 
+    - Prof. Shaifali P. Malukani  , 
+    - Prof. Apurva A. Mehta  , 
+    - Prof. Jatayu H. Baxi  , 
+    - Prof. Pinkal C. Chauhan  , 
+    - Prof. Hariom A. Pandya  ,  
+    - Prof. Niyati J. Buch  , 
+    - Prof. Pandav K. Patel  , 
+    - Prof. Shailja M. Maniya  ."  
+
+  utter_que18_ans:
+  - text: "  105 student placed  . 
+    Average salary :- 5.76 lacs  , 
+    Highest salary :- 30+ lacs   . "  
+
+  utter_que19_ans:
+  - text: " Dharmsinh Desai Institute of Technology was founded in 1968 by Dharmsinh Desai, who then was a member of Parliament, as an institution of higher learning in the field of Engineering and Technology. It achieved autonomous status under Gujarat University in 1991, and Deemed University status in June 2000.
+    In 2005 the institute achieved full university status and was renamed Dharmsinh Desai University. The university initiated a bachelor's course in Dental Surgery in 2005, while the Faculty of Pharmacy was established at the University in 2006. It is the first university in Gujarat to obtain the permission to start Nanotechnology courses in 2012. The university was granted the permission by Medical Council of India, to start new Medical college from the academic year 2019–20. "
+
+  utter_que20_ans:
+  - text: " Dharamsinh Desai University has been ranked as the 88th best Engineering College of India in the Edu-Rand Rankings of 2015 . The survey was done jointly by Edu, an Indian company and Rand Corporation, an American think tank . 
+    NIRF (Overall) (2020)  :- 151–200 , 
+    NIRF (Universities) (2020) :- 101-150 , 
+    NIRF (Engineering) (2020):- 193 ...
+    The university was ranked 101-150 band among universities in India by the National Institutional Ranking Framework (NIRF) in 2020. "
+
+  utter_que22_ans:
+  - text: " 42 acres (170,000 m2) "
+
+  utter_que23_ans:
+  - text: "89 student placed...
+    Average Salary :- 4.2 Lacs per Annum , 
+    Highest Salary :-  27 Lacs per Annum . "
+
+  utter_que24_ans:
+  - text: "Prof. (Dr.) Vipul K Dabhi"
+
+  utter_que25_ans:
+  - text: "1. Programming / Computing Laboratory , 
+    2. Software Development Laboratory , 
+    3. Computer Hardware / Network Laboratory , 
+    4. Computational Intelligence & Network Computing Laboratory , 
+    5. Web Technologies Laboratory . "
+
+  utter_que26_ans:
+  - text: " Dr. Nikhil J. Kothari , 
+    Professor & Head Ph.D... 
+    Experience :- 32 Years , 
+    Contact :- nil_kothari@ddu.ac.in . "
+
+  utter_que27_ans:
+  - text: "1. Computer Laboratories , 
+   2. Antenna and Microwave , 
+   3. Analog Electronics , 
+   4. Basic Electronics , 
+   5. Communication , 
+   6. Advanced Communication , 
+   7. Electronics Measurement , 
+   8. Electrical Machine . "
+
+  utter_que28_ans:
+  - text: "63 student placed... 
+    Average salary :- 3 lacs , 
+    Highest salary :- 6 lacs . "
+
+  utter_que29_ans:
+  - text: " - Dr. Nikhil J. Kothari , 
+    - Dr. H. S. Majumdar , 
+    - Dr. Vinay M. Thumar , 
+    - Dr. Hardip K. Shah , 
+    - Dr. Purvang D. Dalal , 
+    - Dr. Yogesh K. Meghrajani , 
+    - Prof. Shital Thakkar , 
+    - Prof. Pallavi G. Darji , 
+    - Dr. Rizwan H. Alad , 
+    - Prof. Smith. S. Thavalapill , 
+    - Prof. Hetal B. Shah , 
+    - Prof. Manishkumar K. Patel , 
+    - Prof. Jitendra M.Shah , 
+    - Prof. Ashish B. Pandya , 
+    - Dr. Mitesh J. Limachia , 
+    - Prof. Bhavini .D. Parmar . "
+
+  utter_que30_ans:
+  - text: " - Prof. (Dr.) Vipul K Dabhi , 
+        - Prof.(Dr.) Harshad B Prajapati , 
+         - Prof. Nikita Desai , 
+         - Prof.(Dr.) Mukesh M. Goswami , 
+         - Prof. Zankhana V Dabhi , 
+         - Prof. Ravindra A. Vyas , 
+         - Prof. Yogendra L. Patel , 
+         - Prof. Vimal L. Vachhani , 
+         - Prof. Anand D. Dave , 
+         - Prof. Brijesha Rao , 
+         - Prof. Sandeep Suthar , 
+         - Prof. Roshni M. Raval , 
+         - Prof. Tanvi Goswami , 
+         - Prof. Archana N. Vyas , 
+         - Prof. Deepak Vegda , 
+         - Prof. Jayesh V. Malaviya , 
+         - Prof. Viral R. Patel , 
+         - Prof. Sunil K. Vithlani . "
+
+  utter_que31_ans:
+  - text: " follow this link for syllabus :- "
+    image: "https://www.ddu.ac.in/pdf/CE_BTech_syllabus.pdf "
+
+  utter_que32_ans:
+  - text: "follow this link for syllabus :- "
+    image: "https://www.ddu.ac.in/pdf/I.T%20B.Tech%20CBCS%20Scheme%20for%201-8%20Sem_Syllabus_book_2016_2020.pdf"
+
+  utter_que33_ans:
+  - text: "follow this link for syllabus :-  "
+    image: "https://www.ddu.ac.in/pdf/BTechSyllabus_EC.pdf "
+
+  utter_que34_ans:
+  - text: "Dr. M. S. Rao"
+
+  utter_que35_ans:
+  - text: "1. Mechanical Operation Lab , 
+    2. Heat Transfer Lab , 
+    3. Fluid Flow Operations Lab , 
+    4. Mass Transfer Lab , 
+    5. Transport Phenomena Lab , 
+    6. Instrumentation and Process Control Lab , 
+    7. General Chemical Technology Lab , 
+    8. Chemical Reaction Engineering Lab , 
+    9. Advanced Instrumentation Lab . "
+
+  utter_que36_ans:
+  - text: "  follow this link for syllabus :- "
+    image: "https://www.ddu.ac.in/pdf/B_Tech_syllabus-ChemE.pdf"
+
+  utter_que37_ans:
+  - text: " Dr. M. S. Rao , 
+        Dr. P. A. Joshi , 
+        Dr. A. P. Deshmukh , 
+        Dr. J. L. Purohit , 
+        Dr. Vimal Gandhi , 
+        Dr. A. P. Dhanwani , 
+        Prof. D. N. Shah , 
+        Prof. Mihir P. Shah , 
+        Prof. Nirav J. Bhavsar , 
+        Dr. Anand Kumar Tiwari , 
+        Prof. Siddharth C. Modi , 
+        Prof. Hitesh N. Panchal , 
+        Dr. Arup K. Ghosh , 
+        Prof. Ved Tripathi , 
+        Prof. Dhrumil Gandhi , 
+        Dr. Mahendra S. Gaikwad , 
+        Dr. Hemant Kumar , 
+        Dr. Bhupendra Suryawanshi , 
+        Prof. Jaydeep Jivani , 
+        Prof. Niraj Nair ,  
+        Prof. Jalpa M. Patel , 
+        Prof. Krishna Chauhan , 
+        Prof. Mudita Garg , 
+        Prof. D. J. Vyas , 
+        Prof. Charmy S. Malde , 
+        Prof. Rignesh B. Patel , 
+        Dr. Chirag R. Patel , 
+        Prof. Geeta Gohil , 
+        Prof. Vasim Babuna . "
+
+  utter_que38_ans:
+  - text: " Dr. Gurmitsingh D. Bassan ,
+    Professor & Head ,
+    Ph.D., M.E. (Machine Design) ,
+    Experience :- 33 Years ,
+    Contact :- gdbassan.mech@ddu.ac.in "
+
+  utter_que39_ans:
+  - text: "1. Manufacturing Technology-I , 
+    2. Manufacturing Technology-II , 
+    3. Cadd Centre I , 
+    4. MMM Lab , 
+    5. Computer Aided Manufacturing , 
+    6. Automobile System , 
+    7. Thermal Engineering-I Testing , 
+    8. Fluid Mechanics & Fluid Power Engineering , 
+    9. Material Science And Metallurgy . "
+
+  utter_que40_ans:
+  - text: " Dr. Gurmitsingh D. Bassan , 
+  Prof. Rajesh M. Joshi , 
+  Prof. Prasad V. Dixit , 
+  Prof. Pravin N. Tank , 
+  Dr. Nimeshchandra S. Patel , 
+  Prof. Nirav A. Vora , 
+  Prof. Brijesh P. Waghela , 
+  Prof. Roopnesh V. Solanki , 
+  Prof. Mitesh N. Prajapati , 
+  Prof. Krunal K. Shah , 
+  Prof. Kavit R. Shah , 
+  Prof. Chirag M. Fadadu . "
+
+  utter_que41_ans:
+  - text: " follow this link for syllabus :- "
+    image: "https://www.ddu.ac.in/pdf/Syllabus_UG_Mechanical_2019-20.pdf"  
+
+  utter_que42_ans:
+  - text: " Prof. K. N. Sheth"
+
+  utter_que43_ans:
+  - text: "1. Concrete technology , 
+        2. Highway Engineering , 
+        3. Environmental Engineering , 
+        4. Soil Mechanics , 
+        5. CASAD Lab , 
+        6. Strength of Material & Engineering Mechanics , 
+        7. Fluid Mechanics , 
+        8. Survey Lab . "
+
+  utter_que44_ans:
+  - text: " Prof. D. G. Panchal , 
+        Prof. M. R. Bhavsar , 
+        Prof. S. S. Khandelwal , 
+        Prof. K. N. Sheth , 
+        Prof.(Dr.) M. A. Patel , 
+        Prof. B. C. Patel , 
+        Prof. C. A. KaPatel , 
+        Prof. S. P. Parmar , 
+        Prof.(Ms) A. D. Parekh , 
+        Prof. (Ms) J. K. Pandya , 
+        Prof. (Dr.) R. K. Sheth , 
+        Prof. A. K. Yadav , 
+        Prof. J. P. Prajapati , 
+        Prof. A. J. Gondaliya , 
+        Prof. (Ms) A. K. Sheth . "
+
+  utter_que45_ans:
+  - text: "follow this link for syllabus :- "
+    image: "https://www.ddu.ac.in/pdf/B_Tech-CivilE.pdf"
+
+  utter_que46_ans:
+  - text: " Prof. (Dr.) V. A. Shah "
+
+  utter_que47_ans:
+  - text: "1, Electronics Laboratory , 
+  2. Biomedical Control System and Robotics Laboratory , 
+  3. Measurement and Instrumentation Laboratory , 
+  4. Biomedical, Control System and Robotics Laboratory , 
+  5. Biomedical, Control System and Robotics Laboratory , 
+  6. Process and Automation Laboratory ,Measurement and Instrumentation Laboratory , 
+  7. Programming and Simulation Laboratory . "
+
+  utter_que48_ans:
+  - text: "Prof. (Dr.) V. A. Shah , 
+      Prof. Chirag S. Dalal , 
+      Prof. Jignesh G. Bhatt , 
+      Prof. Shashank P. Shah , 
+      Prof. Shweta P. Gaur , 
+      Prof. Himanshu. R. Patel , 
+      Prof. Tigmanshu J. Patel , 
+      Prof. Rinal V. Mistry , 
+      Prof. Heta. S. Shah . "
+
+  utter_que49_ans:
+  - text: "follow this link for syllabus :- "
+
+
+  utter_que62_ans:
+  - text: "The students carry out their final semester internship 
+    in major software companies and organizations like IIT Bombay, 
+    Tata Research Development and Design Centre Pune, ISRO, PRL, IPR, 
+    Amazon, TCS, Infosys, Tech-Mahindra, Capgemini etc. "
+
+  utter_que63_ans:
+  - text: "There are total two Scholarships For DDU Students :- 
+    1)Pradip Dalal Family Endowment Fund - (MoA) 2019 , 
+    2)Merit-cum-Means Scholarships . "
+
+  utter_que64_ans:
+  - text: "This endowment fund establishes account of Dollar 1,00,000 or 
+    equivalent Rupees for the scholarship. Every year four students will 
+    be awarded Rs. 25,000 based on merit plus means basis. If students 
+    meet the requirements, they will continue receiving the scholarship 
+    for four years."
+
+  utter_que65_ans:
+  - text: "As a part of programmes to achieve the objectives, DDUAA is 
+  giving merit cum means scholarships to the deserving students. It is 
+  decided to establish “DDU Alumni Association Scholarship Fund” so as 
+  to make the scheme self sustaining through donation from individuals 
+  and organizations. We are happy to announce that ex-students of DDU, 
+  number of individuals and organizations have extended tremendous 
+  positive response for the generous donation to award “Merit Cum Means 
+  Scholarship” to deserving students and we expect many more to follow the same."
+
+  utter_que66_ans:
+  - text: "Physical Education Teachers :-
+    1. Shri Gautam Chauhan , 
+    2. Shri B.R. Zala . "
+  
+  utter_que67_ans:
+  - text: "Controller of Examinations :- 
+    Prof. M.R. Bhavsar"
+  
+  utter_que68_ans:
+  - text: "Ragging is strictly prohibited and stringent measures are 
+    taken to ensure that. Faculty-wise anti-ragging squad are in place
+    and recommendations by Raghavan Committee on this matter have 
+    been implemented."
+
+  utter_que69_ans:
+  - text: "1. Dr. C K Bhensdadia – Head , 
+    2. Prof. M T Mehta , 
+    3. Prof. M. S. Bhatt . "
+  utter_que70_ans:
+  - text: "1. Dr. M S Rao - Head , 
+    2. Dr. Vimal Gandhi , 
+    3. Dr. Manish Mishra . "
+  utter_que81_ans:
+  - text: "Dr. Nikhil Kothari 
+    Dr. Vinay Thumar 
+    Dr. Purvang Dalal "
+  utter_que72_ans:
+  - text: "1. Dr. G. D. Basan - Head , 
+    2. Prof. R. M. Joshi , 
+    3. Dr. N. S. Patel . "
+  utter_que73_ans:
+  - text: "1. Prof. K. N. Sheth - Head ,  
+    2. Prof. B. C. Patel , 
+    3. Prof. J. B. Ranpura . "
+  utter_que74_ans:
+  - text: "1. Prof. Rajendra Chhajed , 
+    2. Dr. Vipul Dabhi , 
+    3. Prof Mukesh Goswami . "
+  utter_que75_ans:
+  - text: "1. Dr. V.A.Shah , 
+    2. Prof. C.S.Dalal , 
+    3. Dr. Manish Thakkar . "
+  utter_que76_ans:
+  - text: "1. Prof. Neeraj Yagnik , 
+    2. Prof. Pathik Variya . "
+  utter_que77_ans:
+  - text: "Dr. B. S. Jathal – Dean  , 
+    Dr. Somil Mathur , 
+    Dr. Hiren Patel , 
+    Dr. Amish Mehta , 
+    Dr. Darshak Shah . "
+  utter_que78_ans:
+  - text: "Dr. B.N.Suhagia – Dean , 
+    Dr. T.G.Soni , 
+    Dr. S.P.Chauhan , 
+    Dr. M.N.Patel , 
+    Mr. R.B.Maradia . "
+  utter_que79_ans:
+  - text: "Prof G R Meriya – Principal , 
+    Prof G R Chauhan , 
+    Prof R C Patel . "
+  utter_que80_ans:
+  - text: "Prof. Rajanikant Jain - Serves as registrar to the university."
+
+  utter_que82_ans:
+  - text: "Best-in-class curriculum and teaching approach :- 
+    A.	Focus on imparting practical lessons to students , 
+    B.	Teaching through live cases and projects , 
+    C.	Special training to enhance presentation skills of students , 
+    D.	Competence building programmes based on the learning ability of the students , 
+    E.	Inculcating professionalism among students , 
+    F.	Special management programmes for executives . "
+
+  utter_que83_ans:
+  - text: "#Missions :-
+    The University shall undertake programmes and projects 
+    for development of human resources, both through formal 
+    and non-formal delivery systems, in areas of professional 
+    pursuits in all walks of human endeavours, with accent 
+    on relevance, value addition, societal needs and futuristic 
+    pilot projects.... 
+    #Visions :-
+    To become a multi-disciplined and learner-oriented university.
+    To closely associate with and responsive to the industry.
+    To create supportive and caring environment for staff and students.
+    To improve R&D activities in areas of national priority..."
+
+  utter_que84_ans:
+  - text: "1. Electronics & Communication , 
+    2. Chemical Engineering , 
+    3. Environment Engineering , 
+    4. Information and Communications Technology , 
+    5. Instrumentation and Control Engineering , 
+    6. Applied Chemistry , 
+    7. Material Science , 
+    8. Pharmaceutics , 
+    9. Quality Assurance , 
+    10. Management , 
+    11. Mechanical Engineering  , 
+    12. Structural Engineering , 
+    13. Computer Engineering , 
+    14. Computer Science , 
+    15. Mathematics LU , 
+    16. Periodontology , 
+    17. Prosthodontics & Crown and Bridge , 
+    18. Conservative Dentistry , 
+    19. Orthodontics and Dentofacial Orthopaedics , 
+    20. Pediatric and Preventive Dentistry , 
+    21. Oral Medicine & Radiology , 
+    22. Oral and Maxillofacial Surgery , 
+    23. Oral Pathology . "
+
+
+  utter_que85_ans:
+  - text: " Vijay Patel :- an Indian lawyer and a former member of parliament..
+    Axar Patel :-  an Indian cricketer...
+    Ketan R. Patel :- Chairman & Managing Director of Troikaa Pharmaceuticals... 
+    Komal Mangtani	:- Senior Director, Uber, USA ... 
+    M. N.Patel	:- 	Vice Chancellor, Gujarat University, Ahmedabad ... 
+    Yatindra Sharma	:- 	MD, KHS Machinery
+    Jaimin Vasa	 :-	MD, Vasa Group of Industries ... 
+    Hemang Pandit	:- 	MD & CEO, Pandit Software Services ... 
+    Shakil Kadri	:- 	Executive Director, Centre of Process Safety, AIChE, Washington DC, USA ... 
+    Sarita Nayyar	:- 	Global Head, Business Development, Wipro, B'lore ... 
+    Jigar Raval	 :-	Deputy Commissioner of Income Tax, GOI ... 
+    Sachin Mehta	:- 	National Head, VAS, Vodafone Essar Ltd ... 
+    Nitesh Kumar Vyas	:- 	IAS, Govt. of India ... 
+    Shital Mehta	:- 	CEO, Pantaloons Fashion & Retail Ltd ... 
+    Manish Mathuria	:- 	Co-founder and CTO of InfoStretch ... 
+    Manish Sheladia	 :-	Co-founder of CIGNEX Technologies (Acquired by Datamatics Global Services) ... 
+    K. C. Jani	:- 	Executive Director, IDBI Bank Ltd.
+    Parindu Bhagat	:- 	Independent Director of Indian Oil Corporation ... 
+    Shailesh Gandhi	:- 	Dean, Academic and PG Programme, IIMA ... 
+    Also some more info about ddu alumni...."
+    image: "http://ddualumni.org/"
+
+  utter_que86_ans:
+  - text: "1. Boys Hostel , 
+    2. Girls Hostel , 
+    3. Main Library , 
+    4. Canteen , 
+    5. Sports Activities , 
+    6. DDU general hospital , 
+    7. Computer Lab , 
+    8. Multi media hall , 
+    9. Classrooms , 
+    10. Dental Ambulance, 
+    11. Pharma Lab . "
+
+  utter_que87_ans:
+  - text: "Shri Kushal N. Desai , 
+    Shri Chaitanya N. Desai , 
+    Dr. H. M. Desai , 
+    Shri Ankur H. Desai , 
+    Honourable Shri Dinsha Patel , 
+    Shri Anish Mankad , 
+    Shri Pankaj R. Patel , 
+    Prof. S. K. Khanna (ex-chairman: AICTE) , 
+    Dr. N. R. Dave , 
+    Shri Nirupam Nanavati , 
+    Shri Harshad Dalal , 
+    Prof. D. G. Panchal , 
+    Dr. B. S. Jathal . "
+
+  utter_que88_ans:
+  - text: "Dr. H. M. Desai , 
+    Dr. B. S. Jathal , 
+    Prof. D. G. Panchal , 
+    Prof. N. S. Shah , 
+    Prof. M. R. Bhavsar , 
+    Prof. R. K. Jain . "
+
+  utter_que89_ans:
+  - text: "Prof. M.R. Bhavsar"
+
+  utter_que90_ans:
+  - text: "There is a placement cell, which helps in organising campus selections. Major Recruiters – Amazon, Infosys, TCS, Crest data system, Zeus Learning, Reliance Industries, Chemietech, Cadila healthcare, NIRMA Industries, Adani ports and SEZ, eInfochips, Cognizant, Accenture, Zensar, Infibeam, Cybage,Inforstretch, openXL, streebo, Synoverge, PCS, UOP Honeywell, Cadence, DCM ShriRam, Adani power, Hitachi Hirel, Quanta process, Byju's think and learn, TechMahindra, Capgemini, ATUL, Shipment, Coromandel, GCPTCL, Nayara Energy, Tata Consulting Engineers etc. have visited the campus for their requirements."
+
+  utter_que91_ans:
+  - text: " BTech(SFI) :- 1,44,000 per year , 
+    BTech(GIA) :- 1,000 per year , 
+    BTech(NRI) :- 3,50,000 per year , 
+    MTech(SFI) :- 1,40,000 per year . "
+
+  utter_que92_ans:
+  - text: " BTech(SFI) :- 1,44,000 per year ."
+
+  utter_que93_ans:
+  - text: " BTech(GIA) :-
+    1,000 per year"
+
+  utter_que94_ans:
+  - text: "BTech(NRI)     :-    3,50,000 per year  . "
+
+  utter_que95_ans:
+  - text: "MTech(SFI)     :-    1,40,000 per year  . "
+
+  utter_que96_ans:
+  - text: " please visit this link for calender of dental :-"
+    image: "https://www.ddu.ac.in/pdf/Calender-2nd-to-4thYear%202019.pdf"
+
+
+  utter_que97_ans:
+  - text: "1. Prosthodontics and Crown & Bridgework , 
+    2. Periodontics and Oral Implantology , 
+    3. Conservative Dentistry & Endodontics , 
+    4. Paediatric & Preventive Dentistry , 
+    5. Oral Medicine & Radiology , 
+    6. Orthodontics and Dentofacial Orthopaedics , 
+    7. Public Health Dentistry , 
+    8. Oral Pathology and Oral Microbiology & Department of Dental Anatomy, 
+    9. Embryology & Oral Histology , 
+    10. Oral & Maxillofacial Surgery . "
+
+
+  utter_que98_ans:
+  - text: "governmnet quota :- 3,99,000 per year , management quota :- 6,98,000 per year . "
+
+
+  utter_que99_ans:
+  - text: "governmnet quota :- 8,51,000 per year ,  management quota :- 9,98,000 per year . "
+
+
+  utter_que101_ans:
+  - text: Click here to open the Calendar 
+    image: "https://www.ddu.ac.in/pdf/FoP_BPH%20&%20MPH%20Sem-I%20&%20II_2018-19.pdf"
+
+  utter_que102_ans:
+  - text: "Tuition Fee :- 1,54,000 ,       
+    Max. Scholarship Available :- 10,000  ,
+    Tuition Fee payable after scholarship :- 1,44,000  ."
+
+  utter_que103_ans:
+  - text: "There are 4 departments in pharmacy :-    
+    1). Pharmacology , 2). Pharmaceutics & Pharmaceutical Technology ,  3). Pharmacognosy , 
+    4). Pharmaceutical Chemistry ."
+
+  utter_que104_ans:
+  - text: Click here to open the Calendar of MBA :- 
+    image: "https://www.ddu.ac.in/pdf/Mgmt-Academic-Calender2017-18.pdf"
+
+  utter_que105_ans:
+  - text: Click here to open the Calendar of MCA :- 
+    image: "https://www.ddu.ac.in/pdf/mca%20-%20All.pdf"
+  
+  utter_que106_ans:
+  - text: "MBA (SFI) :- Rs.1,52,000    ,   
+    MBA (GIA) :- Rs.7,200  ."
+
+  utter_que107_ans:
+  - text: "MCA (SFI) :- Rs.1,58,000  ,      
+    MCA (GIA) :- Rs.3,500 ."
+
+  utter_que108_ans:
+  - text: "There are two departments in MGMT & INFO SCIENCE:-     
+    1)Business Application ,  
+    2)Computer Application ."
+
+  utter_que111_ans:
+  - text: "research done by technology department :- "
+    image: "https://www.ddu.ac.in/pdf/28_FoT_MajorResearchProjects.pdf"
+
+  utter_que112_ans:
+  - text: " research done by dental science department :- "
+    image: "https://www.ddu.ac.in/DentalScience-Research.php "
+
+  utter_que113_ans:
+  - text: "research done by pharmacy department :- "
+    image: "https://www.ddu.ac.in/Pharmacy-Research.php "
+
+  utter_que114_ans:
+  - text: "research done by management and info science department :- "
+    image: "https://www.ddu.ac.in/pdf/MAJOR%20PROJECTS-CMS.pdf"
+
+  utter_que115_ans:
+  - text: "Dr. C. K. Bhensdadia , 
+          Professor & Head , 
+          PhD, M.Tech (IIT-B) , 
+          Experience :- 30 Years , 
+          ckbhensdadia@ddu.ac.in . "
+
+  utter_que116_ans:
+  - text: "Dr. Brijesh S. Bhatt , 
+          Professor , 
+          PhD(IIT-B) , 
+          Experience :- 19 Years , 
+          brij.ce@ddu.ac.in . "
+
+  utter_que117_ans:
+  - text: "Prof. Mrudang T. Mehta , 
+          Associate Professor , 
+          PhD(Pursuing),M.Tech(IIT-R) , 
+          Experience: 19 Years , 
+          mrudang.ce@ddu.ac.in . "
+
+  utter_que118_ans:
+  - text: " Prof. Siddharth P. Shah , 
+Assistant Professor , 
+PhD(Pursuing) , 
+Experience :- 15 Years ,  
+siddharth.ce@ddu.ac.in . "
+
+  utter_que119_ans:
+  - text: " Prof. Prashant M. Jadav , 
+            Associate Professor , 
+            M.E. , 
+            Experience :- 18 Years , 
+            pmj.ce@ddu.ac.in . "
+
+  utter_que120_ans:
+  - text: " Dr. Malay S. Bhatt , 
+          Associate Professor , 
+          PhD , 
+          Experience :- 17 Years , 
+          malaybhatt.ce@ddu.ac.in ."
+
+  utter_que121_ans:
+  - text: " Dr. Bhavika M. Gambhava , 
+Assistant Professor , 
+PhD , 
+Experience :- 15 Years , 
+bhavika.ce@ddu.ac.in . "
+
+  utter_que122_ans:
+  - text: " Prof. Jigar M. Pandya , 
+Assistant Professor , 
+MS , 
+Experience :- 14 Years , 
+(4 years at Reston, VA. U.S.A.) , 
+jigarpandya.ce@ddu.ac.in . "
+
+  utter_que123_ans:
+  - text: " Prof. Sheetal S. Shah , 
+Assistant Professor , 
+M.Tech , 
+Experience :- 20 Years , 
+sheetalshah.ce@ddu.ac.in . "
+
+  utter_que124_ans:
+  - text: " Prof. Apurva A. Mehta , 
+Assistant Professor , 
+PhD(Pursuing) , 
+Experience :- 9 Years , 
+apurvamehta.ce@ddu.ac.in . "
+
+  utter_que125_ans:
+  - text: " Prof. Jatayu H. Baxi , 
+Assistant Professor , 
+PhD(Pursuing) , 
+Experience :- 9 Years , 
+jatayubaxi.ce@ddu.ac.in . "
+
+  utter_que126_ans:
+  - text: "Prof. Pandav K. Patel , 
+Assistant Professor , 
+M.Tech , 
+Experience: 6 Years , 
+(4 years at Microsft, USA) , 
+pandavpatel.ce@ddu.ac.in . "
+
+  utter_que127_ans:
+  - text:  " Prof. Hariom A. Pandya , 
+Assistant Professor , 
+PhD(Pursuing) , 
+Experience: 7 Years , 
+hariompandya.ce@ddu.ac.in . "
+
+
+  utter_please_rephrase:
+    - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+
+  
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

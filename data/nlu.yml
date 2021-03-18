@@ -1,0 +1,696 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: who
+  examples: |
+    - what is your name
+    - who are you
+
+- intent: que1
+  examples: |
+    - when was DDU founded
+    - DDU origin date
+    - when was ddu started
+
+- intent: que2
+  examples: |
+    - where is DDU Located
+    - location of ddu
+
+- intent: que3
+  examples: |
+    - howmany fields in DDU
+
+- intent: que4
+  examples: |
+    - official website of ddu university
+    - official website
+
+- intent: que5
+  examples: |
+    - departments in Faculty of Technology
+    - departments in Engineering
+    - departments in technology
+
+- intent: que6
+  examples: |
+    - total how many courses in dharmsinh desai university
+    - total courses 
+
+- intent: que7
+  examples: |
+    - Who is President of DDU university
+    - president
+
+- intent: que9
+  examples: |
+    - who is dean of Faculty of Technology
+    - dean of Faculty of Technology
+    - dean of Technology
+
+  
+- intent: que10
+  examples: |
+    - who is dean of Faculty of Dental Science
+    - dean of Faculty of Dental Science
+    - dean of Dental Science
+
+- intent: que11
+  examples: |
+    - who is dean of Faculty of Pharmacy
+    - dean of Faculty of Pharmacy
+    - dean of Pharmacy
+
+- intent: que12
+  examples: |
+    - who is dean of Faculty of Management
+    - dean of Faculty of Management
+    - dean of  Management
+
+- intent: que13
+  examples: |
+    - Academic Calendar of technology
+    - Academic Calendar
+
+- intent: que15
+  examples: |
+    - who is hod of Computer engineering
+    - hod of Computer engineering
+    - hod of ce
+
+- intent: que16
+  examples: |
+    - facilities of ce
+    - facilities of computer engineering 
+
+- intent: que17
+  examples: |
+    - Faculty of computer engineering
+    - Faculty of ce
+    - teaching staff of ce 
+    - teaching staff of computer engineering
+
+- intent: que18
+  examples: |
+    - placement details of ce
+    - placement  details of computer engineering
+    - placement of ce
+    - placement of computer engineering
+
+- intent: que19
+  examples: |
+    - history of ddu
+    - history of dharmsinh desai university
+    - history of university
+
+- intent: que20
+  examples: |
+    - ranking of ddu
+    - ranking of dharmsinh desai university
+
+- intent: que22
+  examples: |
+    - campus area of ddu
+    - campus area of university
+
+- intent: que23
+  examples: |
+    - placement of it
+    - placement of information technology
+
+- intent: que24
+  examples: |
+    - who is hod of information technology
+    - who is hod of it department
+    - hod of it
+    - hod of information technology
+
+- intent: que25
+  examples: |
+    - facilities in it
+    - facilities in information techology
+
+- intent: que26
+  examples: |
+    - who is hod of electronics and communication engineering
+    - who is hod of ec department
+    - hod of ec
+    - hod of electronics and communication engineering
+
+- intent: que27
+  examples: |
+    - facilities in ec department
+    - facilities in electronics and communication engineering
+
+- intent: que28
+  examples: |
+    - placement of electronics and communication engineering
+    - placement of ec
+
+- intent: que29
+  examples: |
+    - Faculty of electronics and communication engineering
+    - Faculty of ec deparment
+    - teaching staff of ec deparment
+    - Faculty Members of ec 
+    - teaching staff of ec 
+
+- intent: que30
+  examples: |
+    - Faculty of information and technolgy engineering
+    - Faculty of it deparment
+    - teaching staff of it deparment
+    - Faculty Members of it 
+    - teaching staff of it 
+
+- intent: que31
+  examples: |
+    - Syllabus of ce
+    - Syllabus of computer enginnering
+
+- intent: que32
+  examples: |
+    - Syllabus of it
+    - Syllabus of information technology
+    
+- intent: que33
+  examples: |
+    - Syllabus of ec
+    - Syllabus of electronics and communication engineering
+
+- intent: que34
+  examples: |
+    - who is hod of Chemical engineering
+    - hod of Chemical engineering
+    - hod of Chemical
+    
+- intent: que35
+  examples: |
+    - facilities in Chemical engineering deparment.
+
+- intent: que36
+  examples: |
+    - Syllabus of chemical
+    - Syllabus of chemical engineering
+
+- intent: que37
+  examples: |
+    - Faculty Members of chemical engineering
+    - teaching staff of chemical deparment
+
+- intent: que38
+  examples: |
+    - who is hod of Mechanical Engineering
+    - hod of Mechanical Engineering
+    - hod of Mechanical
+
+- intent: que39
+  examples: |
+    - facilities in mechanical engineering deparment
+
+- intent: que40
+  examples: |
+    - Faculty Members of mechanical engineering
+    - teaching staff of mechanical engineering
+
+- intent: que41
+  examples: |
+    - Syllabus of mechanical engineering
+    - Syllabus of mechanical
+
+- intent: que42
+  examples: |
+    - who is hod of civil Engineering
+    - hod of civil
+    - hod of civil Engineering
+
+- intent: que43
+  examples: |
+    - facilities in civil engineering deparment
+
+- intent: que44
+  examples: |
+    - Faculty Members of civil engineering
+    - teaching staff of civil engineering
+
+- intent: que45
+  examples: |
+    - Syllabus of civil engineering
+    - Syllabus of civil
+
+- intent: que46
+  examples: |
+    - who is hod of Instrumentation & Control Engineering
+    - who hod of ic
+
+- intent: que47
+  examples: |
+    - facilities in Instrumentation & Control Engineering 
+    - facilities in ic
+
+- intent: que48
+  examples: |
+    - Faculty Members of Instrumentation & Control Engineering
+    - teaching staff of Instrumentation & Control Engineering
+    - Faculty Members of ic
+    - teaching staff of ic
+
+- intent: que49
+  examples: |
+    - Syllabus of Instrumentation & Control Engineering
+    - Syllabus of ic
+
+
+- intent: que62
+  examples: |
+    - Internships in technology
+    - Internships in faculty of technology
+    - Internships of faculty of technology
+
+- intent: que63
+  examples: |
+    - how many scholarships in ddu
+    - scholarships in university
+    - scholarships
+
+- intent: que64
+  examples: |
+    - what is Pradip Dalal Family Endowment Fund - (MoA) 2019
+    - Pradip Dalal Family Endowment Fund - (MoA) 2019
+
+- intent: que65
+  examples: |
+    - what is Merit-cum-Means Scholarships
+    - Merit-cum-Means Scholarships
+
+- intent: que66
+  examples: |
+    - who are Physical Education Teachers
+    - Physical Education Teachers
+  
+- intent: que67
+  examples: |
+    - who is Controller of Examinations
+    - Controller of Examinations
+
+- intent: que68
+  examples: |
+    - what is Anti Ragging Policy
+    - Anti Ragging Policy
+
+- intent: que69
+  examples: |
+    -who are Anti Ragging Squad of Computer Department
+    -anti ragging squad of ce
+
+- intent: que70
+  examples: |
+    -who are Anti Ragging Squad of Chemical Department
+    -anti ragging squad of chemical
+
+- intent: que81
+  examples: |
+    -who are Anti Ragging Squad of Electronics and Communication Department
+    -anti ragging squad of ec
+
+- intent: que72
+  examples: |
+    -who are Anti Ragging Squad of Mechanical Department
+    -anti ragging squad of mechanical
+
+- intent: que73
+  examples: |
+    -who are Anti Ragging Squad of Civil Department
+    -anti ragging squad of civil
+
+- intent: que74
+  examples: |
+    -who are Anti Ragging Squad of IT Department
+    -anti ragging squad of it
+
+- intent: que75
+  examples: |
+    -who are Anti Ragging Squad of IC Department
+    -anti ragging squad of ic
+
+- intent: que76
+  examples: |
+    -who are Anti Ragging Squad of MBA Department
+    -anti ragging squad of mba
+
+- intent: que77
+  examples: |
+    -who are Anti Ragging Squad of Dental Science Department
+    -anti ragging squad of dental science
+
+- intent: que78
+  examples: |
+    -who are Anti Ragging Squad of Pharmacy Department
+    -anti ragging squad of pharmacy
+
+- intent: que79
+  examples: |
+    -who are Anti Ragging Squad of Commerce Department
+    -anti ragging squad of commerce
+
+- intent: que80
+  examples: |
+    - who is registrar of the university
+    - registrar of the university.
+
+- intent: que82
+  examples: |
+    - what are the key features of ddu approach
+    - key features of ddu approach
+
+- intent: que83
+  examples: |
+    - what are the missions of ddu
+    - what are the vision of ddu
+    - vision of ddu
+    - missions of ddu
+
+
+- intent: que84
+  examples: |
+    - what are subjects in phd
+    - what are courses in phd
+    - phd courses
+    - phd courses in university
+
+- intent: que85
+  examples: |
+    - alumni
+    - alumni of ddu
+    - alumni of university
+
+- intent: que86
+  examples: |
+    - facility in ddu
+    - Facility in university
+    - facilities in ddu
+    - Facilities in university
+
+
+- intent: que87
+  examples: |
+    - Board of Governors
+    - Board of Governors of university
+    - Board of Governors of ddu
+
+- intent: que88
+  examples: |
+    - Finance Committee
+    - Finance Committee of ddu
+    - Finance Committee of university
+
+
+- intent: que89
+  examples: |
+    - Controller of Examinations
+    - Controller of Examinations of ddu
+    - Controller of Examinations of university
+
+- intent: que90
+  examples: |
+    - placement details of ddu
+    - placement details
+
+- intent: que91
+  examples: |
+    - tution fee for engineering
+    - tution fee for faculty of technology
+    - fee for engineering
+    - fee for faculty of technology
+
+- intent: que92
+  examples: |
+    - tution fee for btech sfi
+    - sfi tution fee
+    - tution fee for btech self finance
+    - fee for btech sfi
+    - btech sfi fee
+    - fee for btech self finance
+
+- intent: que93
+  examples: |
+    - tution fee for btech gia
+    - tution fee for btech government
+    - gia tution fee
+
+- intent: que94
+  examples: |
+    - tution fee for btech nri
+    - nri tution fee
+
+- intent: que95
+  examples: |
+    - tution fee for mtech
+
+- intent: que96
+  examples: |
+    - academic calender of dental
+    - academic calender of dental science
+
+- intent: que97
+  examples: |
+    - departments in dental
+    - departments in dental science
+
+- intent: que98
+  examples: |
+    - tution fee for bechelor of dental
+    - tution fee for bechelor dental science
+    - fee for bechelor of dental
+    - fee for bechelor dental science
+
+- intent: que99
+  examples: |
+    - tution fee for master of dental
+    - tution fee for master of dental science
+    - fee for master of dental
+    - fee for master of dental science
+
+- intent: que101
+  examples: |
+    -academic calendar of pharmacy
+
+- intent: que102
+  examples: |
+    - fee structure of pharmacy
+    - fee for pharmacy
+    - tution fee of pharmacy
+  
+- intent: que103
+  examples: |
+    - how many departments are there in pharmacy
+    - departments in pharmacy
+  
+- intent: que104
+  examples: |
+    - academic calendar of MBA
+  
+- intent: que105
+  examples: |
+    - academic calendar of MCA
+  
+- intent: que106
+  examples: |
+    -fee structure of mba
+    -fee for mba
+    -what is the fee structure of mba
+   
+- intent: que107
+  examples: |
+    -fee structure of mca
+    -fee for mca
+    -what is the fee structure of mca
+
+- intent: que108
+  examples: |
+    - how many departments are there in management and info science
+    - departments in management and info science
+    - departments in management
+
+- intent: que111
+  examples: |
+    - research of technology
+    - research of technology department
+    - projects of technology
+    - projects of technology department
+
+- intent: que112
+  examples: |
+    - research of dental science
+    - research of dental science department
+    - research projects of dental science
+    - research projects of dental science department
+
+- intent: que113
+  examples: |
+    - research of pharmacy
+    - research of pharmacy department
+    - research projects of pharmacy
+    - research projects of pharmacy department
+
+- intent: que114
+  examples: |
+    - research of management and info science
+    - research of management and info science department
+    - research projects of management and info science
+    - research projects of management and info science department
+
+- intent: que115
+  examples: |
+   - who is c k Bhensdadia
+   - c k Bhensdadia
+
+- intent: que116
+  examples: |
+    - Brijesh S Bhatt
+    - who is Brijesh S Bhatt
+
+- intent: que117
+  examples: |
+    - Mrudang t Mehta
+    - who is Mrudang t Mehta
+
+- intent: que118
+  examples: |
+    - Siddharth P Shah
+    - who is Siddharth P Shah
+
+- intent: que119
+  examples: |
+    - Prashant M Jadav
+    - who is Prashant M Jadav
+
+- intent: que120
+  examples: |
+    - Malay S Bhatt
+    - who is Malay S Bhatt
+
+- intent: que121
+  examples: |
+    - Bhavika M Gambhava
+    - who is Bhavika M Gambhava
+
+- intent: que122
+  examples: |
+    - Jigar M Pandya
+    - who is Jigar M Pandya
+
+- intent: que123
+  examples: |
+    - Sheetal S Shah
+    - who is Sheetal S Shah
+
+- intent: que124
+  examples: |
+    - Apurva A Mehta
+    - who is Apurva A Mehta
+
+- intent: que125
+  examples: |
+    - Jatayu H Baxi
+    - who is Jatayu H Baxi
+
+- intent: que126
+  examples: |
+    - Pandav K Patel
+    - who is Pandav K Patel
+
+- intent: que127
+  examples: |
+    - Hariom A Pandya
+    - who is Hariom A Pandya
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
